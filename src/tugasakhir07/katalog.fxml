@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="422.0" style="-fx-background-color: AFEEEE;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugas_akhir_07.KatalogController">
+   <children>
+      <Label layoutX="150.0" layoutY="21.0" prefHeight="25.0" prefWidth="145.0" text="Detail Katalog">
+         <font>
+            <Font name="Elephant Italic" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="141.0" fitWidth="134.0" layoutX="27.0" layoutY="99.0">
+         <image>
+            <Image url="@../image/travelbag2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="232.0" layoutY="106.0" prefHeight="17.0" prefWidth="161.0" text="Travel Bag For Cat ">
+         <font>
+            <Font name="Calibri Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="144.0" prefHeight="17.0" prefWidth="194.0" text="Usually when you wanted to travel " />
+      <Label layoutX="177.0" layoutY="161.0" prefHeight="17.0" prefWidth="210.0" text="with your cat you had to just dump him" />
+      <Label layoutX="175.0" layoutY="178.0" prefHeight="17.0" prefWidth="250.0" text=" into a big garbage bag and tie it off " />
+      <Label layoutX="177.0" layoutY="195.0" prefHeight="17.0" prefWidth="233.0" text="at the end until you get to your destination" />
+      <Label layoutX="175.0" layoutY="212.0" prefHeight="17.0" prefWidth="221.0" text=" making sure to pop a few holes in the " />
+      <Label layoutX="179.0" layoutY="231.0" prefHeight="17.0" prefWidth="233.0" text="bag to make sure they can breathe a little." />
+      <Button fx:id="Btnregistration" layoutX="160.0" layoutY="308.0" mnemonicParsing="false" onAction="#registration" prefHeight="25.0" prefWidth="145.0" style="-fx-background-color: PINK;" text="Registration " />
+   </children>
+</AnchorPane>

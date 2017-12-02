@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="519.0" style="-fx-background-color: AEEEEE;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugas_akhir_07.Katalog2Controller">
+   <children>
+      <Label layoutX="212.0" layoutY="20.0" prefHeight="25.0" prefWidth="153.0" text="Detail Katalog ">
+         <font>
+            <Font name="Elephant Italic" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="159.0" fitWidth="153.0" layoutX="42.0" layoutY="82.0">
+         <image>
+            <Image url="@../image/14497779_B.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="274.0" layoutY="82.0" prefHeight="20.0" prefWidth="105.0" text="Pet Feeder ">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="209.0" layoutY="112.0" text="This handy feeder conveniently allows you" />
+      <Label layoutX="211.0" layoutY="129.0" text="to leave your pet at home without worrying " />
+      <Label layoutX="212.0" layoutY="146.0" prefHeight="17.0" prefWidth="203.0" text="about him missing meals or snacks." />
+      <Label layoutX="211.0" layoutY="182.0" text="Fill up the 5 one-cup portion sections and set the timer" />
+      <Label layoutX="212.0" layoutY="199.0" text="for when you want your pet to get fed. " />
+      <Button fx:id="btnregistration2" layoutX="202.0" layoutY="267.0" mnemonicParsing="false" onAction="#registration2" prefHeight="25.0" prefWidth="163.0" style="-fx-background-color: pink;" text="Registration " />
+   </children>
+</AnchorPane>

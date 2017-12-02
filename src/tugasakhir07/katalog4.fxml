@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: AEEEEE;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugas_akhir_07.Katalog4Controller">
+   <children>
+      <Label layoutX="243.0" layoutY="26.0" prefHeight="25.0" prefWidth="147.0" text="Detail Katalog ">
+         <font>
+            <Font name="Elephant Italic" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="155.0" fitWidth="163.0" layoutX="32.0" layoutY="89.0">
+         <image>
+            <Image url="@../image/H.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="351.0" layoutY="81.0" prefHeight="20.0" prefWidth="100.0" text="Bed For Pet ">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="213.0" layoutY="122.0" text=" Me &amp; My Pets Small &quot;Doughnut&quot; Style Bed" />
+      <Label layoutX="215.0" layoutY="139.0" text=" - Super soft plush inner fabric" />
+      <Label layoutX="226.0" layoutY="157.0" text="Perfect for cats/kittens/puppies &amp; smaller dog breeds  " />
+      <Label layoutX="219.0" layoutY="183.0" text="- Helps keep your pets off sofas/ chairsPerfect for pets" />
+      <Label layoutX="229.0" layoutY="200.0" text="who love a cosy place to curl up &amp; feel safe" />
+      <Button fx:id="btnregistration4" layoutX="276.0" layoutY="254.0" mnemonicParsing="false" onAction="#registration4" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: pink;" text="Registration " />
+   </children>
+</AnchorPane>

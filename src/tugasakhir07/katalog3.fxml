@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="584.0" style="-fx-background-color: AEEEEE;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugas_akhir_07.Katalog3Controller">
+   <children>
+      <Label layoutX="232.0" layoutY="26.0" text="Detail Katalog ">
+         <font>
+            <Font name="Elephant Italic" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="174.0" fitWidth="171.0" layoutX="37.0" layoutY="89.0">
+         <image>
+            <Image url="@../image/cat_scoops.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="352.0" layoutY="89.0" text="Pet Scoop 's">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="245.0" layoutY="136.0" text="At first glance, there’s nothing unusual about this litter scoop," />
+      <Label layoutX="236.0" layoutY="153.0" text="but it’s what’s inside that makes it so remarkable." />
+      <Label layoutX="234.0" layoutY="169.0" text="The Eco Litter Scoop is made from plant-based materials and" />
+      <Label layoutX="235.0" layoutY="186.0" text="colored with soy-based inks, and it’s biodegradable." />
+      <Button fx:id="btnregistration3" layoutX="306.0" layoutY="238.0" mnemonicParsing="false" onAction="#registration3" prefHeight="25.0" prefWidth="171.0" style="-fx-background-color: PINK;" text="Registration " />
+   </children>
+</AnchorPane>
